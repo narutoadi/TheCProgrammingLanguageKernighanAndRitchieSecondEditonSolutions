@@ -1,0 +1,9 @@
+Hello, this is Aditi Mishra.
+This folder has solutions to all the probelms of The C programming language by Kernighan and Dennis Ritchie.
+This a test file.
+It is used in giving input to various programs.
+w ww www wwww aaaaa aaaaaa aaaaaaa pppppppppp ppppppppppppppp kdfgoufdgjfdu dkseriuhgdfniughsui                    
+w ww www wwww aaaaa aaaaaa aaaaaaa pppppppppp ppppppppppppppp kdfgoufdgjfdu dkseriuhgdfniughsui                  
+w ww www wwww aaaaa aaaaaa aaaaaaa pppppppppp ppppppppppppppp kdfgoufdgjfdu dkseriuhgdfniughsui
+w ww www wwww aaaaa aaaaaa aaaaaaa pppppppppp ppppppppppppppp kdfgoufdgjfdu dkseriuhgdfniughsui
+w ww www wwww aaaaa aaaaaa aaaaaaa pppppppppp ppppppppppppppp kdfgoufdgjfdu dkseriuhgdfniughsui                              
