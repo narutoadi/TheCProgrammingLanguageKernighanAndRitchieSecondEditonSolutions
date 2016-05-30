@@ -1,9 +1,53 @@
+/*
 Hello, this is Aditi Mishra.
 This folder has solutions to all the probelms of The C programming language by Kernighan and Dennis Ritchie.
 This a test file.
 It is used in giving input to various programs.
+w ww www wwww aaaaa aaaaaa aaaaaaa pppppppppp ppppppppppppppp kdfgoufdgjfdu dkseriuhgdfniughsui                    
+w ww www wwww aaaaa aaaaaa aaaaaaa pppppppppp ppppppppppppppp kdfgoufdgjfdu dkseriuhgdfniughsui                  
 w ww www wwww aaaaa aaaaaa aaaaaaa pppppppppp ppppppppppppppp kdfgoufdgjfdu dkseriuhgdfniughsui
 w ww www wwww aaaaa aaaaaa aaaaaaa pppppppppp ppppppppppppppp kdfgoufdgjfdu dkseriuhgdfniughsui
-w ww www wwww aaaaa aaaaaa aaaaaaa pppppppppp ppppppppppppppp kdfgoufdgjfdu dkseriuhgdfniughsui
-w ww www wwww aaaaa aaaaaa aaaaaaa pppppppppp ppppppppppppppp kdfgoufdgjfdu dkseriuhgdfniughsui
-w ww www wwww aaaaa aaaaaa aaaaaaa pppppppppp ppppppppppppppp kdfgoufdgjfdu dkseriuhgdfniughsui
+w ww www wwww aaaaa aaaaaa aaaaaaa pppppppppp ppppppppppppppp kdfgoufdgjfdu dkseriuhgdfniughsui                              */
+// Horizontal histogram
+#include<stdio.h>
+#define MAXLEN 1000000
+int frequency[1000001] = {0};
+main()
+{
+	int c,len,i,j;
+	len = 0;
+	while((c=getchar())!=EOF)
+	{
+		if(c==' '||c=='\t'||c=='\n'){
+			frequency[len]++;
+			len=0;
+		}
+		else len++;
+	}
+	int prev=0;
+printf("  ");
+	for(j=20;j>=0;j--){
+		
+//		printf("%2.0f\n",j*1.0);
+		for(i=0;i<frequency[j]-prev;i++){
+			printf("-");
+		}
+/*
+this is a comment
+*/
+		printf("\n%2.0f",j*1.0);
+		for(i=0;i<frequency[j]-1;i++)
+			printf(" ");
+		printf("|");
+		printf("\n  ");
+		for(i=0;i<frequency[j]-1;i++)
+			printf("-");
+		prev=frequency[j];
+		
+	}
+}
+hello	how	are	you	doing?	will	you	come	to	party	tonight?
+hello	how	are	you	doing?
+hello	how	are	you	doing?	will	you	come	to	party	tonight?
+will	you	come	to	party	tonight?
+a	b	c	d	e	f	g	h	i	j	k	l	m	n	o	p	q	r	s	t	u	v	w	x	y	z
