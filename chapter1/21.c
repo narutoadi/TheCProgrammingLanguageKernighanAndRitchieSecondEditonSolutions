@@ -1,8 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-#define TRUE  1
-#define FALSE 0
 #define TABWIDTH 4
 
 int main(void)
@@ -19,7 +16,7 @@ int main(void)
             if (blanks == 1)
                 putchar(' ');
             else if (blanks > 1) {
-                numtabs = col/TABWIDTH - (col-blanks)/TABWIDTH;
+                numtabs = blanks/TABWIDTH;
                 for (i = 0; i < numtabs; ++i)
                     putchar('\t');
                 if (numtabs >= 1)
